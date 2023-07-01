@@ -1,0 +1,37 @@
+{
+  "name": "backend-scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imriven/backend-scaffolding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imriven/backend-scaffolding/issues"
+  },
+  "homepage": "https://github.com/imriven/backend-scaffolding#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.4.2",
+    "knex-cleaner": "^1.3.1",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.1",
+    "sqlite3": "^5.1.6"
+  }
+}
